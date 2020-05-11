@@ -1,0 +1,29 @@
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid royalblue;
+}
+
+.card-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.card-header-confirmed {
+  color: orange;
+}
+
+.card-header-recovered {
+  color: green;
+}
+
+.card-header-deaths {
+  color: red;
+}
+
+.card-value {
+  font-family: 'Roboto', sans-serif;
+}
